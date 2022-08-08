@@ -12,6 +12,8 @@ function App() {
     /*this like object*/
     const [person, setPerson] = useState({name: 'eslam', age: 25});
 
+
+
     const clickHandler = () => {
         setName('ghazy')
         setPerson({name: 'gahzy', age: '24'})
